@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn{
+    // here this code will write in utilities section
+    @apply bg-blue-600 w-24 p-2 m-4 rounded text-white text-center hover:bg-blue-300 hover:cursor-pointer;
+}
+@layer components{
+    // if i need to write inside components
+}
